@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+ body{
+    background-color: white;
+ }
+
+header {
+    background: url('./assets/images/bg-header-desktop.png');
+}
+
+header img{
+    width: 70px;
+}
+.main-paragraph{
+    width: 550px;
+    margin: auto;
+}
+
+
+.description-paragraph{
+    width: 50%;
+}
+
+
+
+
+@media(max-width:640px) {
+    header{
+        background: url('./assets/images/bg-header-mobile.png');
+    }
+
+    .main-paragraph{
+        width: 100%;
+    }
+    .description-paragraph {
+        width: 100%;
+    }
+}
